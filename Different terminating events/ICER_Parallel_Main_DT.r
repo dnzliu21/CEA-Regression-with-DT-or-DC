@@ -16,7 +16,7 @@ rundate = "xxxx_xx_xx"
 GetEstimate = function(b) {
   print(b)
   # generate data
-  data<-sim.CostEff.Obs.V1(n=n,	
+  data<-sim.CostEff.Obs(n=n,	
                            Coef.Surv.MainEff=Coef.Surv.MainEff, Coef.Surv.InterEff=Coef.Surv.InterEff,
                            Cost.diag=Cost.diag, Cost.fix=Cost.fix, Cost.rand=Cost.rand, Cost.term=Cost.term,
                            Par.Censor=Par.Censor,		
