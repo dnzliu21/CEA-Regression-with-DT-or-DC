@@ -1,5 +1,5 @@
 
-sim.CostEff.Obs.V1 <- function(n, Coef.Trt, Coef.Surv.MainEff, Coef.Surv.InterEff, Cost.diag, Cost.fix, Cost.rand, Cost.term, Par.Censor, max.time, k)  {
+sim.CostEff.Obs <- function(n, Coef.Trt, Coef.Surv.MainEff, Coef.Surv.InterEff, Cost.diag, Cost.fix, Cost.rand, Cost.term, Par.Censor, max.time, k)  {
 #n: sample size
 #Coef.Trt: coefficients for treatment assignment model using logistic regression
 #Coef.Surv.MainEff: coefficients of main effects for generating survival time 
