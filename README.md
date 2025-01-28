@@ -4,12 +4,12 @@ This repository contains codes necessary to replicate the simulation results of 
 
 | Folder | Files | Details |
 | --- | --- | --- |
-| Different terminating events | Bootstrap | Script for generating results from Bootstrap methods in DT case |
+| Different terminating events | Bootstrap | Script for Bootstrap methods in DT case |
 |  | DataGen_DT.r | Data generation for simulation in DT case |
 |  | ICER_Estimate_DT.r | Functions for estimators, variance, covariances, and CI in DT case |
 |  | ICER_Parallel_Main_DT.r | Scripts for simulation process in DT case |
 |  | INB_Estimate_DT.r | Scripts for obtaining INB resultsfor simulation in DT case |
-| Different censoring times | Bootstrap | Script for generating results from Bootstrap methods in DC case |
+| Different censoring times | Bootstrap | Script for Bootstrap methods in DC case |
 |  | DataGen_DC.r | Data generation for simulation in DC case |
 |  | ICER_Estimate_DC.r | Scripts for simulation process in DC case |
 |  | ICER_Parallel_Main_DC.r | Scripts for obtaining INB resultsfor simulation in DC case |
