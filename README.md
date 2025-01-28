@@ -2,7 +2,15 @@ This repository contains codes necessary to replicate the simulation results of 
 
 **Folder and files**
 
-| Name | Description |
+| Folder | Details |
 | --- | --- |
-| Different terminating events | List all new or modified files |
-| Different censoring times | Show file differences that haven't been staged |
+| Different terminating events | Bootstrap |
+|  | DataGen_DT.r |
+|  | ICER_Estimate_DT.r |
+|  | ICER_Parallel_Main_DT.r |
+|  | INB_Estimate_DT.r |
+| Different censoring times | Bootstrap |
+|  | DataGen_DC.r |
+|  | ICER_Estimate_DC.r |
+|  | ICER_Parallel_Main_DC.r |
+|  | INB_Estimate_DC.r |
