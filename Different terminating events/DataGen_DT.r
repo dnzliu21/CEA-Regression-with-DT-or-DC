@@ -17,10 +17,10 @@ sim.CostEff.Obs <- function(n, Coef.Trt, Coef.Surv.MainEff, Coef.Surv.InterEff, 
   Trt.Prob = exp(PS.lin)/(1+exp(PS.lin))  		
   Trt = rbinom(n,1,prob=Trt.Prob)		#Trt=1 or 0
   
-  # generate survival time T in days, also get potential uncensored outcomes (counterfactuals) used to evaluate methods
+  # generate survival time T, also get potential uncensored outcomes (counterfactuals) used to evaluate methods
   T = rexp(n, 1/exp(cbind(1,Z)%*%Coef.Surv.MainEff+Trt*(cbind(1,Z)%*%Coef.Surv.InterEff)))  # survival time T for treatment group
 
-  # generate censoring time C in days
+  # generate censoring time C 
   C=runif(n)*Par.Censor  #independent censored time 
   
   L=max.time
