@@ -170,10 +170,6 @@ ICER_SW_MandXF_Z0_Bootlist=ICER_SW_MandXF_Z1_Bootlist=ICER_SWIMP_MandXF_Z0_Bootl
 
 cl <- makeCluster(30)
 
-clusterEvalQ(cl = cl, expr = library(mvtnorm))
-clusterEvalQ(cl = cl, expr = library(survival))
-clusterEvalQ(cl = cl, expr = library(geepack))
-
 # Will need to export all of these to the cluster
 clusterExport(cl = cl, varlist = c("GetBootEstimate", "sim.CostEff.Obs.V1","ICER"))
 clusterExport(cl = cl, varlist = c("KM","CalAccum"))
