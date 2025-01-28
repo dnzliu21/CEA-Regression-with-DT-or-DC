@@ -2,9 +2,9 @@ This repository contains codes necessary to replicate the simulation results of 
 
 **Folder and files**
 
-| Folder | Details |
-| --- | --- |
-| Different terminating events | Bootstrap |
+| Folder | Files | Details |
+| --- | --- | --- |
+| Different terminating events | Bootstrap | R code for generating results from Bootstrap methods |
 |  | DataGen_DT.r |
 |  | ICER_Estimate_DT.r |
 |  | ICER_Parallel_Main_DT.r |
