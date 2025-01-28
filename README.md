@@ -1,1 +1,1 @@
-This repository contains codes necessary to replicate Liu and Chen (2025+): "Regression methods for cost-effectiveness analysis with different censoring times or terminating events for survival time and costs".
+This repository contains codes necessary to replicate the simulation results of Liu and Chen (2025+): "Regression methods for cost-effectiveness analysis with different censoring times or terminating events for survival time and costs".
