@@ -12,7 +12,7 @@ This repository contains codes necessary to replicate the simulation results of 
 | Different censoring times | Bootstrap | Script for Bootstrap methods in DC case |
 |  | DataGen_DC.r | Data generation for simulation in DC case |
 |  | ICER_Estimate_DC.r | Functions for estimators, variance, covariances, and CI in DC case |
-|  | ICER_Parallel_Main_DC.r | Scripts for obtaining INB results for simulation in DC case |
+|  | ICER_Parallel_Main_DC.r | Scripts for simulation process in DC case |
 |  | INB_Estimate_DC.r | Scripts for INB results for simulation in DC case |
 
 
